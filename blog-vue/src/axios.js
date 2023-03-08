@@ -1,7 +1,7 @@
 import axios from 'axios';
 import Element from 'element-ui'
 
-axios.defaults.baseURL = "http://175.27.243.243:8081"
+axios.defaults.baseURL = "http://localhost:8081"
 
 // 前置拦截
 axios.interceptors.request.use(config =>{
